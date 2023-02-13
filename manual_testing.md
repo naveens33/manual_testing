@@ -300,406 +300,507 @@ The more experience a QA specialist has, the more error guessing scenarios they 
 ## Types of Testing
 
 1. Functional testing
+
 It is a type of testing that involves validating the software application for its functional specifications or business requirements. It aims at verifying each feature of the application by executing the test cases and matching the expected result with the actual result.
 
 
 2. Non-functional testing
+
 It is a type of testing that includes testing the non-functional attributes or requirements of the system like performance, reliability, security, scalability, and usability.
 Corresponding to each parameter, we can have one or more types of testing like we have performance testing that includes load, stress, endurance, spike, and volume testing. Similarly, we have security, reliability, scalability, and usability testing.
 
 3. Manual testing
+
 Manual testing is a software testing type in which test case execution is performed manually by humans without using any automated tool. It helps in ensuring that both functional and non-functional requirements are met. It is considered that 100% automation is not possible. Some software testing types like exploratory, usability, user-friendliness, etc can only be performed manually. So, manual testing is always necessary but with its advantages, there are some disadvantages also like – it is very time-consuming, resource-intensive, and prone to human errors.
 
 
 4. Automated testing
+
 It is a type of testing in which automated test case execution is performed using different automation tools and test scripts. Its advantage is – once the automated scripts get created, it saves a lot of test execution time. Also, it helps with the implementation of Continous-Integration and Continous Deployment (CICD) in which automated test cases can be made to execute automatically as soon as the new code is pushed. Thus making the product releases automatic and much faster.
 
 5. Black box testing
+
 It is a type of software testing, in which the tester is not required to have any knowledge of the internal architecture or implementation of the system, for carrying out testing. It is performed, considering the software application as black-box only wherein we pass input to the application and verify the actual result with the expected result without considering how the data is getting processed internally.
 
 
 6. Specification-based testing
+
 It is the same as black-box testing which requires validating the specifications of the application under test without the knowledge of the internal architecture of the system.
 
 
 7. White box testing
-It is a type of software testing, in which the tester needs to have access to and knowledge of the internal architecture of the application. The tester analyses the architecture as well as the source code on different quality parameters like code coverage, code optimization, reusability, etc.
+
+It is a type of software testing, in which the tester needs to have access to and knowledge of the internal architecture of the application. The tester analyses the 
+architecture as well as the source code on different quality parameters like code coverage, code optimization, reusability, etc.
 
 
 8. Glass box testing
+
 It is the same as white box testing in which knowledge of the internal architecture is required to test the software application.
 
 
 9. Structure-based testing
+
 It is the same as white-box or glass-box testing in which the structure or the internal implementation of the application is required to test the application.
 
 
 10. Gray box testing
+
 In Grey box testing, the tester has limited access or knowledge of the internal architecture of the system. For example, the tester might not have access to the full source code of the application but may have access to the design documents or the structure of the database (schema and tables). All this information helps the tester in creating better test cases.
 
 
 11. Unit testing
+
 It is the first level of testing, usually performed by the developers. In unit testing, a module or component is tested in isolation. Its advantage is, defects in a module can be easily identified at an early stage, thus reducing the overall cost of bug-fixing.
 
 
 12. Integration testing
+
 It is the second level of testing, in which a group of related modules is tested as an integrating component. It aims at finding interfacing issues between the modules. The integration testing is of four types – big-bang, bottom-up, top-down, and hybrid.
 
 
 13. System testing
+
 It is the third level of testing, in which the complete integrated application is tested as a whole. It aims at determining if the application conforms to its business requirements.
 
 
 14. Acceptance testing
+
 It is the final and one of the most important levels of testing, on the successful completion of which, the application is released to production. It is of two types – alpha and beta testing.
 
 
 15. Big bang Integration testing
+
 In big bang integration, testing starts only after all the modules are integrated. It is different from system testing as it aims at finding interfacing issues with the different integrated modules.
 
 
 16. Top-down Integration testing
+
 In top-down integration, testing starts from top modules to lower-level modules. At times, the lower-level modules are not created by the time top-level modules are tested. In those cases, ‘Stubs’ are created. These stubs are nothing but dummy modules that simulate the functionality of the lower-level modules.
 
 
 17. Bottom-up Integration testing
+
 In bottom-up integration, testing starts from lower-level modules to higher-level modules up in the hierarchy. Similar to top-down integration, the higher-level modules might not have got created by the time lower-level modules are tested. In those cases, ‘Drivers’ are used. These drivers are dummy modules that simulate the functionality of higher-level modules.
 
 
 18. Hybrid Integration testing
+
 It is the combination of both Top-down and bottom-up integration testing. In this approach, the integration starts from the middle layer, and testing is carried out in both directions making use of stubs and drivers, whenever necessary.
 
 
 19. Alpha testing
+
 It is a type of acceptance testing that is performed by end-users at the developer’s site in a closely monitored environment. It includes both white-box as well as black-box test cases.
 
 
 20. Beta testing
+
 It is the testing done by end-users at the end user’s site. It allows users to provide direct input about the software to the development company. This includes the execution of only black-box tests.
 
 
 21. Equivalence partitioning
+
 In equivalence class partitioning, we group the input data into logical partitions called equivalence classes. All the data items lying in those equivalence classes are assumed to be processed in the same way by the software application to be tested when passed as input.
 
 Its advantage is instead of doing exhaustive testing with all the test data which is very time consuming, we can just pick some data from the equivalence classes and save a considerable amount of time.
 
 
 22. Boundary value analysis
+
 Boundary value analysis is based on equivalence class partitioning. In this technique, we test the application by picking the test data lying in the boundary values of the equivalence classes. Its benefit is the density of defects is more at the boundaries.
 
 
 23. Decision tables testing
+
 It includes testing based on decision tables that represent the application’s behavior based on different combinations of input values and the expected result in a tabular form.
 
 
 24. Cause-effect graph testing
+
 It is a software testing type that uses a graphical representation of input and output. Input is the cause and output is the effect. It aims at the creation of minimum possible test cases for maximum test coverage using cause-effect graphs.
 
 
 25. State transition testing
+
 It is a type of testing based on the state machine model wherein an application is tested based on the change in the application’s state under varying input.
 
 
 26. Use case testing
+
 It is a type of software testing that is carried out with the help of use cases. It aims at identifying test cases that cover the complete application on each transaction basis from start to finish.
 
 
 27. Statement testing
+
 It includes the creation of test scripts that are designed to execute the application’s source code. The test coverage using statement testing is the measure of the source code or statements executed by test scripts.
 
 
 28. Decision or Branch testing
+
 It is the measure of the percentage of decision points(e.g. if-else conditions) executed out of the total decision points in the application.
 
 
 29. Condition testing
+
 It includes testing the condition outcomes i.e. TRUE or FALSE values. So, getting 100% condition coverage requires covering each condition for both TRUE and FALSE results using the test scripts. Therefore, for n conditions, we will have 2n test scripts.
 
 
 30. Multiple condition testing
+
 It includes testing the different combinations of condition outcomes. For 100% coverage, we will have 2^n test scripts. This is very exhaustive and it is very difficult to achieve 100% coverage using this technique.
 
 
 31. Condition determination testing
+
 It is an optimized way of multiple-condition testing in which the combinations which don’t affect the outcomes are discarded.
 
 
 32. Path testing
+
 It includes testing the independent paths in the system. A path is an executable statement in the application’s line of code from the entry to the exit points.
 
 
 33. Mutation testing
+
 It is a type of white box testing in which the application’s source code is intentionally mutated or changed in order to cause a defect. After that, test scripts are executed. If the scripts fail due to the change in code, it means things are working fine.
 
 It aims at finding the weak programs in the application that can lead to bugs.
 
 
 34. Loop testing
+
 It is a type of white box testing that primarily focuses on validating the different kinds of loop constructs – simple loops, nested loops, etc.
 
 
 35. Performance testing
+
 It is a type of non-functional testing that is performed to evaluate the different performance attributes of the system like – stability, responsiveness, correctness, reliability, etc at a particular load.
 
 
 36. Load testing
+
 It is a type of performance testing which involves evaluating the performance of the system under the expected workload. A typical load test includes determining the different performance parameters like response time, throughput, error rate, etc during the course of the load test.
 
 
 37. Stress testing
+
 It is a type of performance testing, in which we evaluate the application’s performance at a load much higher than the expected load. It aims at determining the breakpoint of the application, the point at which the application fails to respond in the correct manner.
 
 
 38. Endurance testing
+
 Endurance or Soak Testing is a software testing type performed to evaluate if a system can sustain a continuous expected load for very long durations (spanning days). It helps in finding memory leakage issues.
 
 
 39. Soak testing
+
 It is the same as endurance testing which includes evaluating the application’s performance on continuous load for long durations.
 
 
 40. Stability testing
+
 It is the same as endurance or soak testing.
 
 
 41. Spike testing
+
 It is one of the types of software testing in which the behavior of the application is observed with a sudden increase in the number of users. It helps in checking if the application can recover from a sudden increase or decrement in the number of active users.
 
 
 42. Volume testing
+
 It is a software testing type in which an application is subjected to a very high volume of data. This is performed either by inserting a large amount of data into the database or by passing large files to the application for processing.
 
 
 43. Experience-based testing
+
 The experienced-based testing techniques are completely based on the experience or intuition of the tester. The two of its most common forms are – Adhoc and Exploratory testing.
 
 
 44. Adhoc testing
+
 It is an unstructured way of testing that is performed without any formal documentation or proper planning. Its main advantage is – it can uncover defects that are otherwise not possible or really hard to be found using conventional techniques.
 
 
 45. Exploratory testing
+
 It is one of the types of testing in which a new test case is added and updated while exploring the system or executing the test cases. Unlike scripted and other testing techniques, the test design and execution go in parallel during exploratory testing.
 
 
 46. Retesting
+
 It is a type of testing in which we verify if the fixed issue is resolved or not. It is the part of the defect life cycle in which a bug once fixed by the developers is assigned to the testers for retesting.
 
 
 47. Regression testing
+
 It includes testing the application under test to verify that a new code change hasn’t affected the other parts of the application. The regression tests are generally best suited for automated testing.
 
 
 48. Smoke testing
+
 It includes executing only a subset of test cases covering the major features of the application. It is performed to make sure that the application can be considered for exhaustive testing or not. If the smoke tests fail then the build is rejected and exhaustive testing is not performed.
 
 
 49. Sanity testing
+
 It is the subset of regression testing, which is carried out when there is some minor fix in the application in a new build. It is a narrow and deep approach wherein a smaller section of the application is tested deeply.
 
 
 50. Dynamic testing
+
 It is performed by executing or running the application under test either manually or using automation. It is the opposite of static testing which includes – reviews and walkthroughs.
 
 
 51. Static testing
+
 A type of testing carried out without actually running the code. It involves activities like reviews, inspections, and walk-throughs.
 
 
 52. Monkey testing
+
 A type of testing that is performed randomly without any predefined set of test cases or test input. It is performed with the intent of breaking the system.
 
 
 53. Gorilla testing
+
 It involves testing an individual module or functionality of the application heavily in order to test its robustness.
 
 
 54. Usability testing
+
 It is a type of software testing that aims at determining the extent to which the application is easy to understand and use. Factors like – ease of use, ease of learning, memorability, level of satisfaction, etc are considered during usability testing.
 
 
 55. Accessibility testing
+
 Accessibility is a software testing type that aims at determining the ease of use or operation of the application specifically for people with disabilities.
 
 
 56. Installation testing
+
 In installation testing, the installation process is checked based on the installation guide of the software product.
 
 
 57. Configuration testing
+
 It is used to evaluate the configuration requirements of the software along with the effect of changing the required configuration.
 
 
 58. Localization testing
+
 It is one of the types of testing in which we evaluate the application’s customization or a localized version of the application to a particular culture or locale.
 
 
 59. Globalization testing
+
 It is one of the types of testing in which an application is evaluated for its functioning across the world independent of its geographical location or cultural environment.
 
 
 60. Internationalization testing
+
 It is the same as globalization testing.
 
 
 61. Negative testing
+
 It is one of the types of software testing in which the application’s robustness (graceful exiting or error reporting) is evaluated when provided with invalid input or test data.
 
 
 62. Security testing
+
 It is a software testing type that aims at evaluating the integrity, authentication, authorization, availability, confidentiality, and non-repudiation of the application under test.
 
 
 63. Penetration testing
+
 It is a type of security testing in which the application is evaluated (safely exploited) for different kinds of vulnerabilities that any hacker could exploit.
 
 
 64. Crowdsourced testing
+
 It is a software testing type that is carried out by a large group or community of QA professionals instead of in-house QAs or hired QA consultants.
 
 
 65. Database testing
+
 It is one of the types of testing that involves checking the integrity of actual data in the front end with the data present in the database. It involves validating the data in the database, checking that there are no orphan records (records with a foreign key to a parent record that has been deleted), no junk records are present, updating records in the database, and matching the values at the front end with the database values.
 
 
 66. API testing
+
 It involves testing of the Restful APIs and SOAP web services directly using some clients like Advanced Rest Client or tools like SOAPUI, Postman, etc.
 
 
 67. ETL testing
+
 Extract-Transform-Load or ETL testing is a software testing type that involves checking the consistency of data after extraction from source to destination.
 
 
 68. Data warehouse testing
+
 It includes validating that the data in the data warehouse is consistent, reliable, and accurate by creating and executing comprehensive test cases across the different stages of BI or Data warehouse.
 
 
 69. Robustness testing
+
 It is a software testing type that is performed to find the robustness of the application i.e. the ability of the system to behave gracefully in case of erroneous test steps and test input.
 
 
 70. A/B testing
+
 It is one of the types of testing in which the two variants of the software product are presented to the end-users. The aim is to find which variant performs better in terms of user experience or any other business goal and then eventually keep the better-performing variant.
 
 
 71. Split testing
+
 It is the same as A/B testing.
 
 
 72. Concurrency testing
+
 It is multi-user testing in which an application is evaluated by analyzing the application’s behavior with concurrent users accessing the same functionality.
 
 
 73. All pair testing
+
 It is a software testing type in which the application is tested with all possible combinations of the values of input parameters.
 
 
 74. Failover testing
+
 It is used to verify the application’s ability to allocate more resources(more servers) in case of failure and transfer the processing part to a backup system.
 
 
 75. Fuzz testing
+
 A type of software testing in which a large amount of random data is provided as input to the application in order to find security loopholes and other issues in the application.
 
 
 76. Fault injection testing
+
 It is a type of testing in which fault is intentionally introduced in the application in order to improve the test coverage.
 
 
 77. UI testing
+
 UI or user interface testing aims at finding Graphical User Interface defects in the application and checks that the GUI conforms to the specifications.
 
 
 78. Pilot testing
+
 It is a software testing type that is carried out as a trial by a limited number of users to evaluate the system and provide their feedback before the complete deployment is done.
 
 
 79. Backend testing
+
 It involves testing the back-end of the system which comprises testing the databases and the APIs in the application.
 
 
 80. Compatibility testing
+
 It is a type of non-functional testing that involves checking the compatibility of the application with different environmental factors like – operating system, hardware, browser, network, devices, software versions, etc.
 
 
 81. Browser compatibility testing
+
 It is one of the types of testing that involves validating the correctness and consistency of the application over different browsers.
 
 
 82. Cross-browser testing
+
 It is the same as browser compatibility testing in which the application’s UI and features are validated across different browsers.
 
 
 83. Forward compatibility testing
+
 It includes validating the application with a newer version of the other platform or software.
 
 
 84. Backward compatibility testing
+
 It includes validating the application with an older version of the other platform or software. It is also known as downward compatibility.
 
 
 85. Downward compatibility testing
+
 It is the same as backward compatibility testing.
 
 
 86. Component testing
+
 A type of testing that involves testing the functionality of the individual components or modules of the application without integrating them.
 
 
 87. Module testing
+
 It is the same as component testing which includes validating an individual module of an application.
 
 
 88. Agile testing
+
 A type of testing that involves following the principles of agile software development methodology. In agile testing, testing is conducted throughout the life cycle of the continuously evolving project instead of being confined to a particular phase.
 
 
 89. End-to-end testing
+
 A software testing type in which the application’s flow is tested from start to end under real-world scenarios in order to ensure that the application works as per the requirement.
 
 
 90. Happy path testing
+
 It is a software testing type in which the default or the happy flow of the application with valid input is tested.
 
 
 91. Incremental testing
+
 It is also known as incremental integration testing. In this testing, integration between the modules is tested and on successful testing, new modules are incrementally added until the time each module of the application is integrated and tested.
 
 
 92. Recovery testing
+
 It is a type of non-functional testing that involves testing the ability of the system to recover from a crash or failure. The application under test is intentionally made to fail and validated if it can recover from the failure.
 
 
 93. Risk-based testing
+
 It is one of the types of testing in which test cases are prioritized on the basis of the risk involved or the impact of the failure.
 It is particularly helpful when there is limited time for testing as we can focus on the test cases with a higher probability of failure.
 
 
 94. Vulnerability testing
+
 It is also known as vulnerability analysis or assessment and it involves the evaluation and identification of the vulnerability or weakness in a software application or infrastructure, in order to reduce the probability of security threats.
 
 
 95. Compliance testing
+
 It is a type of non-functional testing that involves validating that the built product conforms to the organization’s standards and practices. Apart from internal compliance, there could be external compliances as well based on the type of product developed. For example for a software application developed in the healthcare domain, there could be external regulatory bodies whose standards and regulations must be followed.
 
 
 96. Conformance testing
+
 It is the same as compliance testing.
 
 
 97. Destructive testing
+
 A software testing type that includes checking the robustness of the application by intentionally breaking or crashing the application. The aim is to find the break-even point of the application, the point at which the application fails to respond correctly.
 
 
 98. Dependency testing
+
 A software testing type that involves checking the pre-conditions or the initial state and configuration of a system required for its correct functioning.
 
 
 99. Scenario testing
+
 A software testing type in which testing of complex test flows is simplified by making use of scenarios to easily understand and test complex workflows. With this, the end-to-end flow of the application can be tested.
 
 
 100. Documentation testing
+
 Documentation testing involves reviewing and validating the documented artifacts produced before, during, or after the software development/testing phase.
 
 With this, we have come to the end of this article on the different types of testing. If you think we have missed any of the popular software testing types, feel free to let us know in the comments section.
