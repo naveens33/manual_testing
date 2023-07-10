@@ -27,7 +27,7 @@
    1. [Scrum](chapter2/scrum.md)
    
 ### Chapter 3: Fundamentals of testing
-1. Testing principles 
+1. [Testing principles](chapter3/testing_principles.md) 
    1. Early Testing
    2. Defect Clustering
    3. Pesticide Paradox
