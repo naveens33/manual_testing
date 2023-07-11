@@ -35,7 +35,7 @@
    5. Exhaustive Testing is Impossible
    6. Testing Shows Presence of Defects
    7. Absence-of-Errors Fallacy
-2. Fundamental test process 
+2. [Fundamental test process](chapter3/test_process.md)
    1. Requirements Analysis/Design 
       1. Understand the requirements 
       2. Prepare Traceability Matrix
@@ -71,7 +71,7 @@
    6. Test Closure
       1. Criteria for test closure
       2. Test summary report
-3. The psychology of testing
+3. [The psychology of testing](chapter3/psychology_of_testing.md)
 
 ### Chapter 4: Test levels and types
 1. Test Levels 
@@ -118,9 +118,9 @@
 2. Defect Life Cycle
 
 ### Chapter 7: Documents
-1. Test Plan document 
-2. Test Case document 
-3. Defect Tracking sheet
+1. [Test Plan document](documents/SampleTestPlan.docx) 
+2. [Test Case document](documents/SampleTestCaseDocument.xlsx)
+3. [Defect Tracking sheet](documents/DefectTrackingSheet.xlsx)
 4. Test Summary report 
 5. Traceability Metrics 
 
