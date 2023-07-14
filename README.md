@@ -74,12 +74,12 @@
 3. [The psychology of testing](chapter3/psychology_of_testing.md)
 
 ### Chapter 4: Test levels and types
-1. Test Levels 
+1. [Test Levels](chapter4/test_level.md)
    1. Unit Testing
    2. Integration Testing
    3. System Testing
    4. Acceptance Testing
-2. Testing Types
+2. [Testing Types](chapter4/testing_types.md)
    1. Function Testing 
       1. Unit Testing 
       2. Integration Testing
@@ -89,14 +89,14 @@
       1. Performance Testing 
       2. Security Testing 
       3. Usability Testing
-      4. Compatibility Testing 
+         1. Compatibility Testing
 ### Chapter 5: Test design techniques
-1. Static Techniques
+1. [Static Techniques](chapter5/static_techniques.md)
    1. Informal Reviews 
    2. Walk-through
    3. Technical Reviews 
    4. Inspection 
-2. Dynamic Techniques 
+2. [Dynamic Techniques](chapter5/dynamic_techniques.md) 
    1. Structural Techniques or White Box Techniques
       1. Statement Coverage Testing 
       2. Branch Coverage Testing 
@@ -122,7 +122,7 @@
 2. [Test Case document](documents/SampleTestCaseDocument.xlsx)
 3. [Defect Tracking sheet](documents/DefectTrackingSheet.xlsx)
 4. Test Summary report 
-5. Traceability Metrics 
+5. [Traceability Metrics](documents/Requirements_Traceability_Matrix_Template.xlsx) 
 
 ### Chapter 8: Test Management tools 
 

@@ -25,20 +25,21 @@ Name: Car Loan EMI Calculator
 Description:
 Users are provided with an option to calculate the EMI for a car loan. Within the Loans menu, there will be a Car Loan tile displayed. By clicking on "Apply Now," users will be directed to the car loan section. In this section, they will find the following sliders to select and calculate the EMI amount:
 
-Loan Amount Slider (Minimum Rs. 1,00,000 - Maximum Rs. 7,00,000)
-Interest Rate Slider (Minimum 8.05% - Maximum 12.5%)
-Loan Tenure Slider (Minimum 1 Year - Maximum 7 Years)
-Processing Fee Text Field
-Calculate Button
+- Loan Amount Slider (Minimum Rs. 1,00,000 - Maximum Rs. 7,00,000)
+- Interest Rate Slider (Minimum 8.05% - Maximum 12.5%)
+- Loan Tenure Slider (Minimum 1 Year - Maximum 7 Years)
+- Processing Fee Text Field
+- Calculate Button
+
 By providing all the required details, the corresponding EMI amount will be calculated.
 
 Sample Data:    
 
-Loan Amount (P) = Rs. 2,00,000
-Interest Rate (Annual) = 10.5%
-Loan Tenure (Years) = 5
-Processing Fee = Rs. 100
-EMI = Rs. 4399
+- Loan Amount (P) = Rs. 2,00,000
+- Interest Rate (Annual) = 10.5%
+- Loan Tenure (Years) = 5
+- Processing Fee = Rs. 100
+- EMI = Rs. 4399
 
 ### Requirement ID: 380
 
