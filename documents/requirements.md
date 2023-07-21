@@ -8,7 +8,7 @@ Users have the ability to transfer funds between their own accounts. Upon select
 - To account (disabled)
 - Amount (text field)
 - Message (text field)
-- Cancel button
+  - Cancel button
 - Confirm button
 
 Users can confirm the payment after entering the necessary information. If the payment is successful, the message "Payment Successful" will be displayed.
@@ -49,3 +49,23 @@ Description:
 Users have the option to reset their password. On the login page, there is a "Forgot your password?" question displayed. By clicking on it, users are directed to the Forgot Password page. Here, users can enter their email ID, answer the captcha question, and click on "Send Password."
 
 Only if the user answers the captcha correctly, the "Send Password" button will be enabled. Once the email ID and captcha are successfully validated, the message "We've sent an email to [email address] with instructions. If the email doesn't show up soon, please check your spam folder." will be displayed.
+
+
+### Requirement ID: 381
+
+Name: Purchase Foreign Currency
+
+Description:
+
+Users are provided with the option to purchase foreign currency within the application. Within the Purchase menu, they will find a tile labeled "Purchase Foreign Currency." Clicking on "Order Now" will direct users to the Purchase Foreign Currency section, where they can perform the following actions:
+
+1. Choose the source currency from a dropdown menu.
+2. Enter the desired amount in the source currency using a text field.
+3. Select the target currency from another dropdown menu.
+4. View the converted amount in the target currency displayed in an input field.
+5. Utilize the "Calculate" button to perform the currency conversion.
+6. Proceed with the purchase by clicking the "Purchase" button.
+
+Users can enter their desired values in the dropdowns and text field, allowing them to calculate the currency conversion and make a purchase. Upon a successful purchase, users will receive a confirmation message stating, "You can collect the currencies from the nearest BirdBank branch within 3 days."
+
+     
