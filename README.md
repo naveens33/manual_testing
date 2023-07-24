@@ -113,7 +113,7 @@
       1. Error guessing
       2. Exploratory testing
       
-### Chapter 6: Bug/Defect
+### Chapter 6: [Bug/Defect](chapter6/defect.md)
 1. What is Defect?
 2. Defect Life Cycle
 
