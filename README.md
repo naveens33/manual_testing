@@ -95,7 +95,10 @@
    1. Informal Reviews 
    2. Walk-through
    3. Technical Reviews 
-   4. Inspection 
+   4. Inspection
+   5. Static Analysis
+      1. Data Flow
+      2. Control Flow 
 2. [Dynamic Techniques](chapter5/dynamic_techniques.md) 
    1. Structural Techniques or White Box Techniques
       1. Statement Coverage Testing 
@@ -125,4 +128,16 @@
 5. [Traceability Metrics](documents/Requirements_Traceability_Matrix_Template.xlsx) 
 
 ### Chapter 8: Test Management tools 
+1. Introduction to Test Management Tools
+2. Types of Test Management Tools
+3. Key Features of Test Management Tools
+4. Popular Test Management Tools
+5. Test Case Management
+6. Test Execution
+7. Defect Tracking
+8. Requirement Management
+9. Reporting and Metrics
+10. Integration with Other Tools
+11. Best Practices
+12. Case Studies and Examples
 
